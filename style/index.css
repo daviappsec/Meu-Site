@@ -6,10 +6,9 @@
     box-sizing: border-box;
 }
 
+
 .para2 {
     margin: 0px;
-    margin-left: 10%;
-
     font-size: 2rem;
     padding: 0px;
 }
@@ -22,7 +21,6 @@
 }
 
 #apresentacao h1 {
-    margin-left: 10%;
     font-size: 4rem;
     padding: 0px;
 }
@@ -30,13 +28,40 @@
 .subtitulo {
     padding-left: 20px;
     margin-top: 0px;
-  
+
     font-size: 2rem;
     color: var(--text-gray);
 
 }
 
+#btn-contato {
+    padding: 20px;
+    align-items: center;
+    margin: 15px 0px 0px 15px;
+}
+
+.hero {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+#apresentacao{
+    flex:1;
+}
+
+#terminal{
+    flex:0.9;
+}
+
+
 #terminal {
+    position: block;
     background-color: var(--card-bg);
     border: 1px solid var(--border-color);
 
