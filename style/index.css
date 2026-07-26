@@ -40,10 +40,16 @@
     margin: 15px 0px 0px 15px;
 }
 
+#btn-contato:hover {
+    background-color: var(--green-primary);
+    color: var(--border-color);
+}
+
 .hero {
-    max-width: 1200px;
-    margin: 60px auto;
+    max-width: 1600px;
+
     padding: 20px;
+    margin-top: 10px;
 
     display: flex;
     justify-content: space-between;
@@ -51,25 +57,25 @@
     gap: 60px;
 }
 
-#apresentacao{
-    flex:1;
+#apresentacao {
+    flex: 1;
 }
 
-#terminal{
-    flex:0.9;
+#terminal {
+    flex: 0.7;
 }
 
 
 #terminal {
     position: block;
     background-color: var(--card-bg);
-    border: 1px solid var(--border-color);
 
     border-radius: 10px;
-    padding: 30px;
+    padding: 20px;
 
     margin-top: 40px;
     margin-bottom: 50px;
+    box-shadow: 0 0 10px rgba(0, 255, 102, 0.16);
 
 }
 
