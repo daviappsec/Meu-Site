@@ -13,12 +13,6 @@
     padding: 0px;
 }
 
-.para3 {
-    margin-top: 10px;
-
-    font-size: 2rem;
-    padding: 0px;
-}
 
 #apresentacao h1 {
     font-size: 4rem;
@@ -26,7 +20,6 @@
 }
 
 .subtitulo {
-    padding-left: 20px;
     margin-top: 0px;
 
     font-size: 2rem;
@@ -102,4 +95,10 @@
     margin-bottom: 10px;
 
     color: var(--text-gray);
+}
+
+#direita {
+    text-align: right;
+    color: var(--text-gray);
+    padding: 5px;
 }

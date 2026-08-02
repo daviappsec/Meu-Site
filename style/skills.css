@@ -14,15 +14,27 @@ h1 {
     font-weight: bolder;
 }
 
-.subtitulo {
-    margin: 10px 0px 30px 60px;
-    color: var(--text-gray);
-    font-size: 1.5em;
+main {
+    margin-bottom:30px;
 }
+
+
 
 .listapg2 {
     margin: 10px;
     font-size: 1.3rem;
+}
+
+.listapg2 li::before {
+    content: ">";
+    color: var(--green-primary);
+    margin-right: 10px;
+}
+
+#habilidades li::before {
+    content: "📍​";
+    color: var(--green-primary);
+    margin-right: 10px;
 }
 
 .cards {
@@ -33,8 +45,9 @@ aside {
     font-size: 1.4rem;
 }
 
-.cards > h2 {
+.cards > h3 {
     color: var(--text-white);
+    margin: 10px 0px 20px 0px;
 }
 
 .grafico {

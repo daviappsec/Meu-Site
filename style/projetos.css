@@ -7,56 +7,42 @@
 }
 
 h1 {
-    margin:10px 0px 0px 60px ;
+    margin: 0px 0px 0px 60px ;
     font-size: 4rem;
     font-weight: bolder;
 }
 
-.subtitulo {
-    margin: 10px 0px 30px 60px;
-    color: var(--text-gray);
-    font-size: 1.5em;
+p {
+    text-align: justify;
 }
+
 
 .listapg2 {
     margin: 10px;
     font-size: 1.3rem;
+    margin: 10px 0px 0px 0px;
 }
 
 .cards {
     font-size: 1.1em;
 }
 
-.cards > h2 {
+.cards h2 {
+    color: var(--green-primary);
+    font-size: 1.8rem;
+}
+
+.cards > h3 {
     color: var(--text-white);
 }
 
 .cards ul {
     margin-left: 40px;
-   
 }
+
 
 section > a {
     padding: 20px;
-    margin-bottom: 10px;
+    margin: 0px 0px 0px 60px;
 }
 
-.hero {
-    max-width: 1600px;
-
-    padding: 20px;
-    margin-top: 10px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
-}
-
-#apresentacao {
-    flex: 1;
-}
-
-#terminal {
-    flex: 0.7;
-}

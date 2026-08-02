@@ -13,11 +13,6 @@ h1 {
     font-weight: bolder;
 }
 
-.subtitulo {
-    margin: 10px 0px 30px 60px;
-    color: var(--text-gray);
-    font-size: 1.5em;
-}
 
 .listapg2 {
     margin: 10px;
@@ -34,4 +29,10 @@ aside {
 
 .cards >h2 {
     color: var(--text-white);
+}
+
+.cards li::before {
+    content: ">";
+    color: var(--green-primary);
+    margin-right: 10px;
 }

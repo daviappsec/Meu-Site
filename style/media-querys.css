@@ -3,6 +3,7 @@
 
 @media screen and (max-width: 1024px) {
 
+
     #txt-canto {
         font-size: 1.5rem;
         margin-bottom: 15px;
@@ -65,19 +66,22 @@
         margin: 0px;
     }
 
-    /* SOBRE MIM*/
+    /* Projetos*/
 
-    .titulo-mim p {
-        margin-top: 0px;
+    #titulo-projetos p {
+       margin: 0px 20px 20px 60px;
+       text-align: justify;
     }
 
-    /*SKILLS*/
-
-    .titulo-skills h1 {
-        margin-top: 0px;
+    /* Metas */
+ 
+    #titulo-metas p {
+        margin: 0px 20px 20px 60px;
+        text-align: justify;
     }
 
-     .titulo-skills p {
-        margin-top: 0px;
-     }
+    #titulo-contato p {
+        margin: 0px 20px 20px 60px;
+        text-align: justify;
+    }
 }
