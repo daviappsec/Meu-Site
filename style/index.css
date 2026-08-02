@@ -9,17 +9,17 @@
 
 .para2 {
     margin: 0px;
-    font-size: 2rem;
+    font-size: 2.3rem;
     padding: 0px;
 }
 
 
 #apresentacao h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     padding: 0px;
 }
 
-.subtitulo {
+.subtitulo2 {
     margin-top: 0px;
 
     font-size: 2rem;
@@ -42,10 +42,10 @@
     max-width: 1600px;
 
     padding: 20px;
-    margin-top: 10px;
+  
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     gap: 60px;
 }
@@ -78,6 +78,7 @@
 }
 
 #terminal p {
+    font-size: 1.7rem;
     font-family: var(--font-terminal);
     margin-bottom: 20px;
     line-height: 1.9;
@@ -93,6 +94,7 @@
 
 #terminal li {
     margin-bottom: 10px;
+    font-size: 1.7rem;
 
     color: var(--text-gray);
 }
@@ -101,4 +103,17 @@
     text-align: right;
     color: var(--text-gray);
     padding: 5px;
+}
+
+.cards h2 {
+    font-size: 2rem;
+}
+
+.cards p {
+    font-size: 1.7rem;
+    line-height: 1.8;
+}
+.cards a {
+    font-size: 1.1rem;
+    padding: 20px;
 }
