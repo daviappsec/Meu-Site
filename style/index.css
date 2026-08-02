@@ -59,10 +59,11 @@
 
 #apresentacao {
     flex: 1;
+    text-align: justify;
 }
 
 #terminal {
-    flex: 0.7;
+    flex: 1;
 }
 
 

@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width: 1024px) {
+
+    #txt-canto {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    #menu {
+        margin-bottom: 0px;
+        margin-top: 20px;
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+
+    #menu>a {
+        padding: 0px;
+    }
+
+    /*TERMINAL*/
+
+    #terminal p {
+        text-align: justify;
+    }
+
+    /*HERO*/
+
+    .para2 {
+        font-size: 1.9rem;
+    }
+
+    #apresentacao h1 {
+        font-size: 4.2rem;
+    }
+
+    #apresentacao p {
+        font-size: 2rem;
+    }
+
+    #apresentacao a {
+        margin: 20px 0px 0px 40px;
+    }
+
+    .cards {
+        margin: 10px 20px 40px 20px;
+    }
+
+    .cards h2 {
+        font-size: 1.6rem;
+    }
+
+    .cards p {
+        font-size: 1.5rem;
+    }
+
+    .cards a {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+
+    footer p {
+        font-size: 1.3rem;
+        margin: 0px;
+    }
+
+    /* SOBRE MIM*/
+
+    .titulo-mim p {
+        margin-top: 0px;
+    }
+
+    /*SKILLS*/
+
+    .titulo-skills h1 {
+        margin-top: 0px;
+    }
+
+     .titulo-skills p {
+        margin-top: 0px;
+     }
+}
