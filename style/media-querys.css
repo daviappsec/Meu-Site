@@ -69,12 +69,12 @@
     /* Projetos*/
 
     #titulo-projetos p {
-       margin: 0px 20px 20px 60px;
-       text-align: justify;
+        margin: 0px 20px 20px 60px;
+        text-align: justify;
     }
 
     /* Metas */
- 
+
     #titulo-metas p {
         margin: 0px 20px 20px 60px;
         text-align: justify;
@@ -83,5 +83,136 @@
     #titulo-contato p {
         margin: 0px 20px 20px 60px;
         text-align: justify;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    /*CODIGO GERAL*/
+
+    #txt-canto {
+        font-size: 1.6rem;
+        margin: 25px 20px 0px 30px;
+    }
+
+    #terminal {
+        display: none;
+    }
+
+    #apresentacao a {
+        font-size: 1.3rem;
+    }
+
+    .cards h2 {
+        font-size: 1.7rem;
+        margin-bottom: 10px;
+    }
+
+    .cards p {
+        font-size: 2rem;
+    }
+
+    .cards a {
+        font-size: 1.4rem;
+        margin-top: 15px;
+    }
+
+    .listapg2 {
+        font-size: 1.9rem;
+    }
+
+    /*CONTATO*/
+
+    #titulo-contato h1 {
+        font-size: 4.7rem;
+        margin: 10px 20px 0px 10px;
+    }
+
+    #titulo-contato p {
+        font-size: 2rem;
+        margin: 20px 0px 10px 15px;
+    }
+
+    /*SKILLS*/
+
+    .titulo-skills h1 {
+        font-size: 4.7rem;
+        margin: 10px 20px 0px 10px;
+    }
+
+    .titulo-skills p {
+        font-size: 2rem;
+        margin: 20px 0px 10px 15px;
+    }
+
+    .skills h3 {
+        font-size: 1.7rem;
+
+    }
+
+
+
+    /*METAS*/
+
+    .metas h2 {
+        font-size: 2rem;
+    }
+
+    #titulo-metas h1 {
+        font-size: 4.7rem;
+        margin: 10px 20px 0px 10px;
+    }
+
+    #titulo-metas p {
+        font-size: 2rem;
+        margin: 20px 0px 10px 15px;
+    }
+
+    .il-lista,
+    .lista-projetos {
+        font-size: 1.9rem;
+    }
+
+    .metas h3 {
+        font-size: 1.6rem;
+    }
+
+    .metas footer p {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+
+    /*PROJETOS*/
+
+      #titulo-projetos h1 {
+        font-size: 4.7rem;
+        margin: 10px 20px 0px 10px;
+    }
+
+    #titulo-projetos p {
+        font-size: 2rem;
+        margin: 20px 0px 10px 15px;
+    }
+
+    /*SOBRE MIM*/
+
+       .titulo-mim h1 {
+        font-size: 4.7rem;
+        margin: 10px 20px 0px 10px;
+    }
+
+    .titulo-mim p {
+        font-size: 2rem;
+        margin: 20px 0px 10px 15px;
+    }
+
+    aside ul {
+           font-size: 1.9rem;
+    }
+
+    .sobreMim footer p{
+        font-size: 1.6rem;
+        text-align: center;
     }
 }
