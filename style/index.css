@@ -1,0 +1,43 @@
+#container-cabeca {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+
+    font-family: var(--font-terminal);
+}
+
+.item1 {
+    font-size: 1.3rem;
+    margin-top: 17px;
+}
+
+#apresentacao {
+    margin: 10px;
+    padding: 10px;
+
+    box-shadow: inset 1px 1px 1px rgb(33, 41, 57);
+    border-radius: 10px;
+    background-color: var(--card-bg);
+}
+
+#p1{
+    font-size: 1.2rem;
+    padding: 7px 0px 5px 5px;
+}
+
+#apresentacao h1 {
+    padding: 0px 0px 0px 4px;
+    font-size: 2.4rem;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#apresentacao p {
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}

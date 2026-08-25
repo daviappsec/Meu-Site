@@ -3,31 +3,131 @@
 * {
     padding: 0;
     margin: 0;
-} 
+    box-sizing: border-box;
+}
+
 
 :root {
+    --bg-main: #080B14;
+    --bg-secondary: #0F1626;
+    --card-bg: #151F33;
 
-    --bg-main: #050816;
-    --bg-secondary: #0D1117;
-    --card-bg: #111827;
+    --primary: #00D9FF;
+    --primary-hover: #33E1FF;
+    --secondary: #8B5CF6;
 
-    --green-primary: #00FF66;
-    --green-hover: #39FF14;
-    --green-soft: #00CC55;
+    --text-white: #F1F5F9;
+    --text-gray: #94A3B8;
+    --text-dark: #64748B;
 
-    --text-white: #F5F5F5;
-    --text-gray: #B3B3B3;
-    --text-dark: #6B7280;
-
-    --border-color: #1F2937;
+    --border-color: #24324A;
 
     --font-title: 'Orbitron', sans-serif;
     --font-terminal: 'Share Tech Mono', monospace;
     --font-default: Arial, Helvetica, sans-serif;
+
 }
 
 
 body {
-    background-color: red;
+    color: var(--text-white);
+    background-color: var(--bg-main);
     font-family: var(--font-default);
+}
+
+nav a {
+      color: var(--text-white);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.destaque {
+    color: var(--text-gray);
+}
+
+/* BOTÃO */
+
+.menu-hamburguer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+
+    background: transparent;
+    border: none;
+
+    cursor: pointer;
+
+    gap: 5px;
+}
+
+/* BARRAS */
+
+.menu-hamburguer span {
+    width: 28px;
+    height: 3px;
+
+    background-color: var(--text-white);
+
+    border-radius: 5px;
+
+    transition:
+        transform 0.3s ease,
+        opacity 0.3s ease;
+}
+
+.menu-hamburguer span:hover {
+background-color: var(--primary-hover);
+
+transition: 100ms;
+
+}
+
+/* MENU FECHADO */
+
+#menu {
+    display: none;
+}
+
+/* MENU ABERTO */
+
+#menu.ativo {
+    display: flex;
+
+    flex-direction: column;
+    align-items: flex-end;
+
+    position: absolute;
+
+    top: 100%;
+    right: 0;
+
+    padding: 20px;
+    border-radius: 7%;
+    margin-right: 13px;
+
+
+    background-color: rgba(0, 0, 0, 0.77);
+
+
+}
+
+/* PRIMEIRA BARRA */
+
+.menu-hamburguer.ativo span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+/* SEGUNDA BARRA */
+
+.menu-hamburguer.ativo span:nth-child(2) {
+    opacity: 0;
+}
+
+/* TERCEIRA BARRA */
+
+.menu-hamburguer.ativo span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
 }

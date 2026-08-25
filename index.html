@@ -6,16 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site Pessoal | Davi Moreno</title>
 
-    <link rel="stylesheet" href="../Meu Site/style/style.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/index.css">
 </head>
 
 <body id="corpo-index">
-    <header>
+    <header id="container-cabeca">
 
-        <h3>🧑‍💻DAVI&lt;DEV/&gt;</h3>
 
-        <nav>
-            <a href="#inicio">INÍCIO</a>
+        <h3 class="item1">🧑‍💻DAVI <span class="destaque">&lt;DEV/&gt</span></h3>
+
+        <button id="menu-hamburguer" class="menu-hamburguer" type="button" aria-label="Abrir menu">☰
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+        <nav class="item" id="menu">
             <a href="#sobre">SOBRE</a>
             <a href="#skills">SKILLS</a>
             <a href="#projetos">PROJETOS</a>
@@ -23,15 +32,14 @@
 
         </nav>
 
-
     </header>
 
-    <main>
+    <main id="main-index">
         <div>
 
-            <section>
-                <p>Olá, eu sou |</p>
-                <h1>DAVI <strong>MORENO</strong></h1>
+            <section id="apresentacao">
+                <p id="p1">Olá, eu sou <span class="destaque">|</span></p>
+                <h1> &gt; DAVI MORENO &lt;</h1>
 
                 <p>Futuro <strong>AppSec</strong> Engineer Full Stack Developer Apaixonado
                     por tecnologia, segurança e programação.
@@ -151,6 +159,7 @@
 
     </footer>
 
+    <script src="../script/script.js"></script>
 </body>
 
 </html>
