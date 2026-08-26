@@ -28,6 +28,16 @@
 
 }
 
+#container-cabeca {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 10px;
+    padding: 15px;
+
+    font-family: var(--font-terminal);
+}
 
 body {
     color: var(--text-white);
@@ -36,9 +46,59 @@ body {
 }
 
 nav a {
-      color: var(--text-white);
+    color: var(--text-white);
     text-decoration: none;
     font-size: 1.2rem;
+}
+
+strong {
+    color: var(--primary);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    margin: 10px;
+    padding: 10px;
+
+    box-shadow: inset 1px 1px 1px rgb(33, 41, 57);
+    border-radius: 10px;
+    background-color: var(--card-bg);
+    margin-bottom: 25px;
+
+}
+
+.cards h1 {
+    padding: 0px 0px 0px 4px;
+    font-size: 2.4rem;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cards p {
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+.cards a {
+    background-color: var(--border-color);
+    color: var(--text-white);
+    padding: 10px 0px 10px 20px;
+
+    margin-left: 10px;
+    width: 45%;
+
+    text-decoration: none;
+    border-radius: 20%;
+}
+
+.cards a:hover {
+    background-color: var(--primary);
+
 }
 
 .destaque {
@@ -52,7 +112,7 @@ nav a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin-right: 10px;
     padding: 0;
 
     background: transparent;
@@ -79,9 +139,9 @@ nav a {
 }
 
 .menu-hamburguer span:hover {
-background-color: var(--primary-hover);
+    background-color: var(--primary-hover);
 
-transition: 100ms;
+    transition: 100ms;
 
 }
 
@@ -104,9 +164,10 @@ transition: 100ms;
     top: 100%;
     right: 0;
 
-    padding: 20px;
+    padding: 10px;
     border-radius: 7%;
     margin-right: 13px;
+    gap: 10px;
 
 
     background-color: rgba(0, 0, 0, 0.77);
@@ -130,4 +191,11 @@ transition: 100ms;
 
 .menu-hamburguer.ativo span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+}
+
+footer {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 4px;
+    color: var(--text-gray);
 }
