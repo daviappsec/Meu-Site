@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.cards h3, .cards h2{
+    margin: 5px;
+}
+
+ul {
+    margin-left: 25px;
+    line-height: 1.3rem;
+
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+#container-atual {
+    list-style: none;
+    padding: 16px 0px 20px 0px;
+}
+
+#container-atual li::before {
+
+
+    content: "✓";
+    color: var(--text-white);
+    margin-right: 10px;
+}
+
+#container-futuro {
+    list-style: none;
+}
+
+#container-futuro li::before {
+
+    content: "⌛​";
+    color: var(--text-white);
+    margin-right: 10px;
+}

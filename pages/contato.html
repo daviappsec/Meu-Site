@@ -6,17 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato | Davi Moreno</title>
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/contato.css">
 </head>
 
 <body>
 
-    <header>
+    <header id="container-cabeca">
 
-        <button>☰</button>
+           <h3 class="item1">🧑‍💻DAVI <span class="destaque">&lt;DEV/&gt</span></h3>
 
-        <h3>🧑‍💻DAVI&lt;DEV/&gt;</h3>
+        <button id="menu-hamburguer" class="menu-hamburguer" type="button" aria-label="Abrir menu">
 
-        <nav>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+
+        <nav class="item" id="menu">
             <a href="../index.html">INÍCIO</a>
             <a href="./sobre-mim.html">SOBRE</a>
             <a href="./projetos.html">PROJETOS</a>
@@ -26,10 +34,10 @@
         </nav>
 
     </header>
-    <main>
+    <main id="main-contato">
 
 
-        <section>
+        <section class="cards">
 
             <h1>CONTATO</h1>
             <p>
@@ -40,7 +48,7 @@
             </p>
         </section>
 
-        <section>
+        <section class="cards">
 
             <h2>📧 E-mail</h2>
             <p>
@@ -53,7 +61,7 @@
         </section>
 
 
-        <section>
+        <section class="cards" id="github">
 
             <h2>💻 GitHub</h2>
             <p>
@@ -62,11 +70,12 @@
                 podem ser encontrados lá.
             </p>
 
-            <a href="https://github.com/daviappsec" target="_blank"> 
+            <a href="https://github.com/daviappsec" target="_blank">
                 ACESSAR GITHUB
             </a>
         </section>
-        <section class="cards">
+
+        <section class="cards" id="watt">
 
             <h2>📱 WhatsApp</h2>
 
@@ -80,13 +89,11 @@
     <footer>
 
         <p>
-            A tecnologia é uma área construída através de aprendizado contínuo, colaboração e troca de experiências. Se
-            quiser
-            conversar sobre programação, projetos ou compartilhar conhecimento, será um prazer entrar em contato.
+            A tecnologia é uma área construída através de aprendizado contínuo, colaboração e troca de experiências.
         </p>
     </footer>
 
-    <script src="../script.js/hamburguer.js"></script>
+    <script src="../script/script.js"></script>
 </body>
 
 </html>

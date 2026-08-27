@@ -5,17 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HABILIDADES | Davi Moreno</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/habilidade.css">
 </head>
 
 <body>
 
-    <header>
+    <header id="container-cabeca">
 
-          <button>☰</button>
+        <h3 class="item1">🧑‍💻DAVI <span class="destaque">&lt;DEV/&gt</span></h3>
 
-        <h3>🧑‍💻DAVI&lt;DEV/&gt;</h3>
 
-        <nav>
+        <button id="menu-hamburguer" class="menu-hamburguer" type="button" aria-label="Abrir menu">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+
+
+        <nav class="item" id="menu">
             <a href="../index.html">INÍCIO</a>
             <a href="./sobre-mim.html">SOBRE</a>
             <a href="./projetos.html">PROJETOS</a>
@@ -25,34 +36,23 @@
         </nav>
 
     </header>
-    <main>
 
-        <section>
+    <main id="main-habilidades">
+
+        <section class="cards" >
 
             <h1>HABILIDADES</h1>
-            <p>
-                Conheça minhas habilidades e <strong>tecnologias</strong> que estou estudando.
-            </p>
-        </section>
-
-        <section>
 
             <p>
                 Minhas habilidades estão em constante <strong>desenvolvimento</strong>, acompanhando minha
                 evolução na área de
-                tecnologia. Acredito que dominar os fundamentos é o caminho mais seguro para construir projetos de
-                qualidade e crescer profissionalmente.
-
-                Atualmente estudo e pratico tecnologias voltadas para desenvolvimento <strong>web</strong>,
-                buscando compreender não
-                apenas como utilizá-las, mas também como funcionam por trás dos bastidores. Meu objetivo é construir uma
-                base sólida antes de avançar para conceitos mais complexos.
+                tecnologia.
 
             </p>
         </section>
 
 
-        <section>
+        <section class="cards" id="tecnologias">
             <h3><strong>TECNOLOGIAS</strong> QUE ESTOU ESTUDANDO:</h3>
 
             <ul>
@@ -64,7 +64,6 @@
 
                 <li>Git & GitHub — Controle de versão e colaboração em projetos.</li>
 
-                <li>Responsividade — Adaptação de interfaces para diferentes dispositivos.</li>
 
                 <li>UI Design — Criação de experiências visuais modernas e organizadas.</li>
 
@@ -76,16 +75,14 @@
         </section>
 
 
-        <section>
+        <section class="cards" id="essencial">
             <h3>
-                TAMBEM BUSCO DESENVOLVER <strong>HABILIDADES</strong> QUE CONSIDERO ESSENCIAIS PARA QUALQUER
-                PROFISSONAL
-                DA AREA:
+                 BUSCO DESENVOLVER <strong>HABILIDADES</strong> QUE SÃO ESSENCIAIS COMO:
             </h3>
             <ul>
 
                 <li>Resolução de problemas</li>
-                <li>Aprendizado contínuo</li>
+                <li>Aprendizado Contínuo</li>
                 <li>Organização de projetos</li>
                 <li>Pensamento lógico</li>
                 <li>Trabalho em equipe</li>
@@ -93,17 +90,33 @@
             </ul>
         </section>
 
+        <section class="cards">
+
+            <h3>ROADMAP ATUAL</h3>
+            <p>HTML5</p>
+            <div class="barra">
+                <span id="porcentagem-html">96%</span>
+            </div>
+            <p>CSS3</p>
+            <div class="barra">
+                <span id="porcentagem-css">92%</span>
+            </div>
+            <p>JavaScript</p>
+            <div class="barra">
+                <span id="porcentagem-js">12%</span>
+            </div>
+
+        </section>
+
     </main>
 
     <footer>
         <p>
-            Meu foco atual é continuar fortalecendo minhas habilidades em Front-End, avançar para JavaScript e,
-            futuramente,
-            aprofundar meus conhecimentos em Back-End e Segurança de Aplicações.
+            Meu foco atual é fortalecer minhas habilidades em Front-End e avançar para JavaScript.
         </p>
     </footer>
 
-    <script src="../script.js/hamburguer.js"></script>
+    <script src="../script/script.js"></script>
 </body>
 
 </html>

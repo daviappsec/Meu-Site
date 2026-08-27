@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+#main-contato > #github > a {
+    width: 54%;
+}
+
+#main-contato > #watt a {
+    width: 68%;
+}
