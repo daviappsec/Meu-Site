@@ -1,34 +1,6 @@
 @charset "UTF-8";
 
-#tecnologias ul {
-    margin-left: 25px;
-    line-height: 1.3rem;
-}
 
-#tecnologias li {
-    padding-bottom: 10px;
-}
-
-#tecnologias h3 {
-    font-size: 1.1rem;
-    margin-left: 6px;
-    padding-bottom: 10px;
-}
-
-#essencial ul {
-    margin-left: 25px;
-    line-height: 1.3rem;
-}
-
-#essencial li {
-    padding-bottom: 10px;
-}
-
-#essencial h3 {
-    font-size: 1.1rem;
-    margin-left: 6px;
-    padding-bottom: 10px;
-}
 
 .barra {
     width: 100%;
@@ -44,9 +16,9 @@
     width: 96%;
     height: 100%;
 
-   background-color: var(--text-white);
-    color: white;
-     color: var(--bg-main);
+    background-color: var(--text-white);
+    color: var(--text-white);
+    color: var(--bg-main);
 
     padding-left: 5px;
     border-radius: 7px;
@@ -62,7 +34,7 @@
 
     background-color: var(--text-white);
     color: white;
-     color: var(--bg-main);
+    color: var(--bg-main);
 
     padding-left: 5px;
     border-radius: 7px;
@@ -76,7 +48,7 @@
     width: 12%;
     height: 100%;
 
-   background-color: var(--text-white);
+    background-color: var(--text-white);
     color: var(--bg-main);
 
     padding-left: 5px;

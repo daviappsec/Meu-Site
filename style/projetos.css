@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.cards a {
+    width: 55%;
+}
+
+
+#container-atual {
+    list-style: none;
+    padding: 16px 0px 20px 0px;
+}
+
+#container-atual li::before {
+
+
+    content: "✓";
+    color: var(--text-white);
+    margin-right: 10px;
+}
+
+#container-futuro {
+    list-style: none;
+}
+
+#container-futuro li::before {
+
+    content: "⌛​";
+    color: var(--text-white);
+    margin-right: 10px;
+}

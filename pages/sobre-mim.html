@@ -5,18 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Mim | Davi Moreno</title>
-
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/sobre.css">
 </head>
 
 <body>
 
-    <header>
-          <button>☰</button>
-        <h3>🧑‍💻DAVI&lt;DEV/&gt;</h3>
+    <header id="container-cabeca">
+      
+       
+        <h3 class="item1">🧑‍💻DAVI <span class="destaque">&lt;DEV/&gt</span></h3>
 
-        <nav>
+        <button id="menu-hamburguer" class="menu-hamburguer" type="button" aria-label="Abrir menu">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+        <nav class="item" id="menu">
             <a href="../index.html">INÍCIO</a>
-            <a href="./habilidades.html">SKILLS</a>
+            <a href="./habilidades.html">HABILIDADES</a>
             <a href="./projetos.html">PROJETOS</a>
             <a href="./metas.html">METAS</a>
             <a href="./contato.html">CONTATO</a>
@@ -26,41 +35,18 @@
     </header>
 
 
-    <main>
-        <section>
+    <main id="main-sobre">
+        <section class="cards">
             <h1>SOBRE <strong>MIM</strong></h1>
             <p>
-                Conheça minha trajetória, objetivos e foco na área de <strong>tecnologia.</strong>
-            </p>
-        </section>
-        <section>
-            <p>
-                Sou <strong>Davi Moreno</strong>, estudante de desenvolvimento Full Stack e
-                futuro especialista em Segurança de Aplicações
-                <strong>(AppSec)</strong>. Atualmente estou construindo minha base em desenvolvimento web,
-                explorando tecnologias como HTML,
-                CSS,
-                JavaScript, Git e GitHub enquanto desenvolvo projetos próprios para evoluir minhas habilidades na
-                prática.
+               Olá, meu nome é<strong> Davi</strong> e atualmente eu tenho 17 anos, sou Apaixonado por tecnologia desde os meus 14 e comecei os meus estudos em 2025. Sem acesso a computador e ultilizando IDE pelo celular, até que meu professor de fisíca me deu o seu primeiro notebook que acabou se tornando o meu primeiro notebook, após um tempo conseguir comprar o meu atual onde aperfeiçoei meus estudos em HTML5 & CSS3. Atualmente estou indo para o Java Script e continuarei nesse rumo até me tornar um AppSec "Application Security".
             </p>
         </section>
 
-
-        <section>
-            <p>
-                Tenho grande interesse em tecnologia, segurança digital e interfaces modernas. Meu objetivo é criar
-                aplicações
-                seguras, eficientes e com identidade visual profissional, unindo desenvolvimento e<strong>
-                    cibersegurança</strong> em uma
-                única
-                carreira.
-            </p>
-        </section>
-
-          <section>
+        <section class="cards" id="lista">
 
             <h2>ATUALMENTE MEU <strong>FOCO </strong>ESTA EM:</h2>
-           
+
             <ul>
                 <li> Front-End Develop</li>
                 <li> JavaScript</li>
@@ -72,17 +58,7 @@
         </section>
 
 
-        <section>
-            <p>
-                Estou comprometido em aprender e crescer na área de<strong> tecnologia</strong>, buscando
-                sempre novos desafios e
-                oportunidades para aplicar meus conhecimentos em projetos reais.
-                Acredito que a combinação de desenvolvimento e segurança é essencial para criar soluções digitais
-                robustas e confiáveis.
-            </p>
-        </section>
-
-        <section>
+        <section class="cards" id="lista">
             <p>
                 Estou em constante evolução, aprendendo um passo de cada vez e transformando estudo em projetos reais.
                 Acredito
@@ -90,40 +66,29 @@
                 para crescer na área da
                 tecnologia.
             </p>
-        </section>
+      
 
-        <section>
-            <p>
-                Meu objetivo é me tornar um profissional completo, capaz de desenvolver aplicações modernas e seguras,
-                contribuindo para a construção de um ambiente digital mais confiável e inovador.
-                Além da programação, também estudo<strong> inglês</strong> e busco desenvolver uma
-                mentalidade focada em evolução contínua,
-                resolução de problemas e construção de conhecimento sólido.
-            </p>
-        </section>
-
-        <aside>
             <ul>
-               <ul> 2025 → Início nos estudos de programação</ul>
-               <ul> 2025 → HTML e CSS</ul>
-               <ul> 2025 → Git e GitHub</ul>
-               <ul >2026 → JavaScript e Front-End</ul>
-               <ul> Futuro → Back-End + AppSec</ul>
+                <li> 2025 → Início nos estudos de programação</li>
+                <li> 2025 / 2026 → HTML e CSS</li>
+                <li> 2026 → Git e GitHub</li>
+                <li>2026 → JavaScript e Front-End</li>
+                <li> Futuro → Back-End + AppSec</li>
             </ul>
-        </aside>
 
+          </section>
     </main>
 
     <footer>
 
         <p>
-            Meu objetivo no longo prazo é trabalhar com grandes projetos, desenvolvimento seguro e segurança de
+            Meu objetivo é trabalhar com grandes projetos, desenvolvimento seguro e segurança de
             aplicações
             em empresas de tecnologia.
         </p>
     </footer>
 
-    <script src="../script.js/hamburguer.js"></script>
+   <script src="../script/script.js"></script>
 
 </body>
 
