@@ -202,35 +202,33 @@ strong {
 
 }
 
-/* MENU FECHADO */
+    #menu {
+        display: none;
 
-#menu {
-    display: none;
-}
+        position: absolute;
+        top: 70px;
+        right: 30px;
 
-/* MENU ABERTO */
+        flex-direction: column;
+        gap: 15px;
 
-#menu.ativo {
-    display: flex;
+        padding: 35px;
 
-    flex-direction: column;
-    align-items: flex-end;
+        background: #111;
+        border: 1px solid var(--cor-primaria);
+        border-radius: 15px;
+        font-weight: bolder;
 
-    position: absolute;
+        z-index: 999;
+    }
 
-    top: 100%;
-    right: 0;
+    #menu.ativo {
+        display: flex;
+    }
 
-    padding: 10px;
-    border-radius: 7%;
-    margin-right: 13px;
-    gap: 10px;
-
-
-    background-color: rgba(0, 0, 0, 0.77);
-
-
-}
+    #menu a {
+        text-decoration: none;
+    }
 
 /* PRIMEIRA BARRA */
 
