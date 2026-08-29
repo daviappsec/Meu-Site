@@ -148,7 +148,7 @@ strong {
     width: 45%;
 
     text-decoration: none;
-    border-radius: 20%;
+    border-radius: 20px;
 }
 
 .cards a:hover {
@@ -194,13 +194,6 @@ strong {
         opacity 0.3s ease;
 }
 
-.menu-hamburguer span:hover {
-    background-color: var(--primary-hover);
-
-    transition: 0.4s;
-   
-
-}
 
     #menu {
         display: none;
