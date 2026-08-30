@@ -190,3 +190,36 @@
 
 
 }
+
+@media (min-width: 758px) and (max-width: 1200px) {
+   
+  .item1 {
+    font-size: 2.4rem;
+    
+  }
+
+  
+    .menu-hamburguer span {
+        width: 30px;
+        height: 4px;
+        margin: 1px;
+        border: none;
+
+    }
+
+  .menu-hamburguer.ativo span:nth-child(1) {
+        transform: translateY(10px) rotate(50deg);
+    }
+
+    /* SEGUNDA BARRA */
+
+    .menu-hamburguer.ativo span:nth-child(2) {
+        opacity: 0;
+    }
+
+    /* TERCEIRA BARRA */
+
+    .menu-hamburguer.ativo span:nth-child(3) {
+        transform: translateY(-12px) rotate(-47deg);
+    }\''
+}
